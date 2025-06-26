@@ -34,7 +34,7 @@ class APIs {
   }
 
   static Future<List<String>> searchUnsplashImages(String query) async {
-    const String apiKey = 'NxNNwybTXacoYwLDoNMPcw0ofxN9DCMwB5Wu8Ju8PQw';
+   // const String apiKey = ''; api yazınız
     final url = Uri.parse(
         'https://api.unsplash.com/search/photos?query=$query&client_id=$apiKey');
 
